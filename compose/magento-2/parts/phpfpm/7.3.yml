@@ -1,6 +1,6 @@
 
   phpfpm:
-    image: maya5510/magento-php-versions:7.3-fpm
+    image: markoshust/magento-php:7.3-fpm-5
     depends_on:
       - db
     volumes: *appvolumes
