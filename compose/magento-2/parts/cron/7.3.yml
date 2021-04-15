@@ -1,6 +1,6 @@
 
   cron:
-    image: maya5510/magento-php-versions:7.3-fpm
+    image: markoshust/magento-php:7.3-fpm-5
     user: root
     command: /usr/local/bin/cronstart
     tty: true
