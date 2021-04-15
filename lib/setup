@@ -74,7 +74,7 @@ if [[ ! -z "$@" ]] || [[ "$HELP" == "1" ]]; then
         '#Docker #Magento #Mutagen development environment' \
         '' \
         'https://mage2.click' \
-        'https://github.com/mage2click/docker-magento-mutagen'
+        'https://github.com/maya5510/docker-magento-mutagen'
 
     if [[ ! -z "$ERROR" ]]; then
         echo
@@ -129,7 +129,7 @@ elif [[ "$INTERACTIVE" == "1" ]]; then
         'development environment' \
         '' \
         'https://mage2.click' \
-        'https://github.com/mage2click/docker-magento-mutagen'
+        'https://github.com/maya5510/docker-magento-mutagen'
 
     #exec </dev/tty
 
@@ -321,7 +321,7 @@ else
         'development environment' \
         '' \
         'https://mage2.click' \
-        'https://github.com/mage2click/docker-magento-mutagen'
+        'https://github.com/maya5510/docker-magento-mutagen'
 
     DOMAIN=${DOMAIN:-magento2.test}
 
@@ -462,7 +462,7 @@ echo
 mkdir tmp-mage2click
 cd tmp-mage2click
 git init -qqq
-git remote add origin https://github.com/mage2click/docker-magento-mutagen
+git remote add origin https://github.com/maya5510/docker-magento-mutagen
 git fetch origin -qqq
 git checkout origin/master -- compose/magento-2
 for x in compose/magento-2/* compose/magento-2/.[!.]* compose/magento-2/..?*; do
